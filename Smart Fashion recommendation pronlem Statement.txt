@@ -1,0 +1,5 @@
+1.In recent years, the textile and fashion industries have witnessed an enormous amount of
+  growth in fast fashion. 
+2.On e-commerce platforms, where numerous choices are available, an efficient recommendation system is required to sort, order, and   efficiently convey relevant product content or information to users. 
+3.Chatbot-based fashion recommendation systems (FRSs) have attracted a huge amount of attention from fast fashion retailers as they   provide a personalized shopping experience to consumers. With the technological advancements, this branch of artificial   intelligence exhibits a tremendous amount of potential in data processing, parsing, classification, and segmentation.
+4. Despite its huge potential, the number of academic articles on this topic is limited.
