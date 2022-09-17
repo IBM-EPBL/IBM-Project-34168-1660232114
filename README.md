@@ -8,6 +8,9 @@
 <h3 align="left">Batch Member</h3>
 <p align='left'>
 - Jashwanth KS
+- Sanjaikumar N 
+- Mohammed Saleem A
+- Srikanth s
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
