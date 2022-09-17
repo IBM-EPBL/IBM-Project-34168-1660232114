@@ -1,4 +1,4 @@
-<h1 align="center" style='font-size: 15px;'>Smart Fashion Recommender Application</h1>
+<h1 align="center">Smart Fashion Recommender Application</h1>
 <h3 align="center">Category: Cloud App Development</h3>
 
 - 🔭 We are currently working on **Tasks**
