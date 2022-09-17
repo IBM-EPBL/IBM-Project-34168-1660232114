@@ -1,7 +1,7 @@
-<h1 align="center">Project Tittle Smart Fashion Recommender Application</h1>
+<h1 align="center">Smart Fashion Recommender Application</h1>
 <h3 align="center">Category: Cloud App Development</h3>
 
-<h3 align="left">Connect with me:</h3>
+<h3 align="left">Connect with Us:</h3>
 <p align="left">
 </p>
 
