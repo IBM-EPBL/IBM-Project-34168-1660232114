@@ -7,10 +7,10 @@
 <p align="left">B3-3M5E</p>
 <h3 align="left">Batch Member</h3>
 <p align='left'>
-- Jashwanth KS
+ <!-- Jashwanth KS 
 - Sanjaikumar N 
 - Mohammed Saleem A
-- Srikanth s
+- Srikanth s -->
 </p>
 
 <h3 align="left">Languages and Tools:</h3>
