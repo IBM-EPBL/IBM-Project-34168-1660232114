@@ -6,9 +6,14 @@
 <h2 align="left">Batch</h2>
 <p align="left">B3-3M5E</p>
 <h3 align="left">Batch Member</h3>
-<h2 align='left'> - Jashwanth KS </h2>
-<h2 align='left'>- Sanjaikumar N 
-</h2>
+<h4 align='left'>- Jashwanth KS </h4>
+<h4 align='left'>- Sanjaikumar N 
+</h4>
+<h4 align='left'>- Mohammed Saleem A
+</h4>
+<h4 align='left'>- Srikanth s
+</h4>
+
 
 
 <h3 align="left">Languages and Tools:</h3>
