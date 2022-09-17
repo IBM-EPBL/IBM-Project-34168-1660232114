@@ -1,6 +1,11 @@
 <h1 align="center">Smart Fashion Recommender Application</h1>
 <h3 align="center">Category: Cloud App Development</h3>
 
+- 🔭 We are currently working on **Tasks**
+
+- 🌱 We are currently learning **Flask**
+
+
 <h3 align="left">Connect with Us:</h3>
 <p align="left">
 </p>
