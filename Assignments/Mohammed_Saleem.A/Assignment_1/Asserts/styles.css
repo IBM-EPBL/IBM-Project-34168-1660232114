@@ -26,7 +26,7 @@ body{
 }
 .navbar-left>h3{
     font-weight: 300;
-    margin: 30px 0px 0px 10px;
+    margin: 30px 10px 0px 10px;
 }
 .navbar-right{
     display: flex;
@@ -76,8 +76,6 @@ body{
     width: 800px;
     height: 500px;
     background-color: burlywood;
-    /* align-items: center; */
-    /* justify-content: center; */
     margin: auto;
     border-radius: 20px;
     background: rgba( 255, 255, 255, 0.65 );
@@ -268,3 +266,111 @@ body{
     background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
     text-decoration: none;
   }
+
+  @media screen and (max-width: 920px) {
+    
+    .forms{
+        width: 600px;
+    }
+    .contact__form{
+      margin-left: 0px;
+    }
+    #txtarea{
+      width: 150px;
+    }
+    .content{
+      width: 650px;
+      height: 500px;
+    }
+    #profile-pic{
+      margin: 20px 20px 40px 20px;
+    }
+    #hello{
+      margin:30px auto 0px 80px;
+      
+    }
+    .navbar-left>h3{
+      width: 90px;
+    }
+    .btn{
+      margin-left: 100px;
+    }
+  }
+  
+  @media screen and (max-width: 450px) {
+    body {
+      font-family: 'Courier New', Courier, monospace;
+      
+    }
+    .navbar>div{
+      padding: 10px;
+    }
+    .navbar-left>h3{
+      display: none;
+    }
+    .navbar-right>div{
+      padding: 0px;
+    }
+    .navbar{
+      padding: 0%;
+    }
+    .forms{
+        width: 300px;
+        height: 700px;
+        margin-bottom: 10px;
+        
+    }
+    .contact>h2{
+      margin: 0px auto;
+    }
+    .contact__form{
+      margin-left: 0px;
+      
+    }
+    .contact__subtitle{
+      margin: 5px auto;
+    }
+    .contact__container{
+      display: flex;
+      flex-direction: column;
+      margin-bottom: 10px;
+    }
+    #txtarea{
+      
+      width: 200px;
+    }
+    .content{
+      width: 325px;
+      height: 450px;
+      display:flex;
+      flex-direction: column;
+    }
+    #profile-pic{
+      margin: 5px 20px 5px 5px;
+      height: 125px;
+    }
+    .profile-image{
+      width: 325px;
+      border-radius: 10px;
+      display: flex;
+    }
+    .profile-image>h1{
+      margin-top: 30px;
+    }
+    .profile-wordings>h2{
+      padding: 0px 10px; 
+      font-size: 15px;
+    }
+    .profile-wordings>p{
+      font-size: 14px;
+    }
+    #hello{
+      margin:15px auto 0px 90px;
+      font-size: 25px;
+    }
+   
+    .btn{
+      margin-left: 50px;
+    }
+  }
+  
