@@ -11,7 +11,7 @@
 </h4>
 <h4 align='left'>- Mohammed Saleem A
 </h4>
-<h4 align='left'>- Srikanth S
+<h4 align='left'>- Srikanth S [Assignment](https://github.com/IBM-EPBL/IBM-Project-34168-1660232114/tree/main/Assignments/Srikanth.S/Assignments-1)
 </h4>
 
 <hr style="height:0.5px">
