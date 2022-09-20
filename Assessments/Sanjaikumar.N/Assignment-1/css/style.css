@@ -16,7 +16,7 @@
 }
 
 html{
-    font-size: 65%;
+    font-size: 55%;
     overflow-x: hidden;
     scroll-behavior: smooth;
 }
@@ -127,7 +127,7 @@ header .follow a:hover{
     background: var(--main-color);
     pointer-events: none;
     transform: translate(-50%, -50%);
-    border-radius: 50%;
+    border-radius: 80%;
     z-index: 10000;
 }
 
