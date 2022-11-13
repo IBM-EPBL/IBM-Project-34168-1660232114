@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    
+    <script>
+      window.watsonAssistantChatOptions = {
+        integrationID: "256ed32b-26a0-4813-b705-cc72a5618364", // The ID of this integration.
+        region: "eu-gb", // The region your integration is hosted in.
+        serviceInstanceID: "646e7f2f-147d-4a58-a89b-e4f24475110c", // The ID of your service instance.
+        onLoad: function(instance) { instance.render(); }
+      };
+      setTimeout(function(){
+        const t=document.createElement('script');
+        t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
+        document.head.appendChild(t);
+      });
+    </script>
+    
+  </head>
+  <body>
+    <form action="/uploader" method="POST" enctype="multipart/form-data">
+      <input type="text" placeholder="Enter file name" name="filename" />
+      <br />
+      <br />
+      <input type="file" name="file" />
+      <br />
+      <br />
+      <input type="submit" />
+    </form>
+    <br/>
+    <br/>
+    <br/>
+    {% for row in files %}
+         <div style="border: 1px solid #EFEFEF;margin:10px;">
+            <h3>Filename : {{row}} </h3>
+            <img src="#" width="150px"></td>
+         </div>
+      {% endfor %}
+  </body>
+</html>
+
