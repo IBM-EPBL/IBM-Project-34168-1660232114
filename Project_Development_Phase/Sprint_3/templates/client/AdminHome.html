@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta name="description" content="Ashion Template"> -->
+    <!-- <meta name="keywords" content="Ashion, unica, creative, html"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SPARTANS Shop</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/bootstrap.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/elegant-icons.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/font-awesome.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/jquery-ui.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/magnific-popup.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/owl.carousel.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/slicknav.min.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+
+
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <!-- <div id="preloder">
+        <div class="loader"></div>
+    </div> -->
+
+    <!-- Offcanvas Menu Begin -->
+    <div class="offcanvas-menu-overlay"></div>
+    <div class="offcanvas-menu-wrapper">
+        <div class="offcanvas__close">+</div>
+        
+        <div class="offcanvas__logo">
+            <a href=""><img src="{{ url_for('static', filename= 'img/logo.png') }}" alt=""></a>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+        <div class="offcanvas__auth">
+            <a href="/UserLogin">Login</a>
+            <a href="/register">Register</a>
+        </div>
+    </div>
+    <!-- Offcanvas Menu End -->
+
+    <!-- Header Section Begin -->
+    <header class="header">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-xl-3 col-lg-2">
+                    <div class="header__logo">
+                        <a href="#"><img src="{{ url_for('static', filename= 'img/logo.png') }}" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-xl-6 col-lg-7">
+                    <nav class="header__menu">
+                        <ul>
+                            <li class="active"><a href="">User profile</a></li>
+                            <li><a href="#">New Products</a></li>
+                            <li><a href="/ProductInfo">ProductInfo</a></li>
+                            <!-- <li><a href="#">Pages</a>
+                                <ul class="dropdown">
+                                    <li><a href="./product-details.html">Product Details</a></li>
+                                    <li><a href="./shop-cart.html">Shop Cart</a></li>
+                                    <li><a href="./checkout.html">Checkout</a></li>
+                                    <li><a href="./blog-details.html">Blog Details</a></li>
+                                </ul>
+                            </li> -->
+                            <!-- <li><a href="./blog.html">Blog</a></li> -->
+                            <li><a href="/UserLogin">Logout</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                
+            </div>
+            <div class="canvas__open">
+                <i class="fa fa-bars"></i>
+            </div>
+        </div>
+    </header>
+    <!-- Header Section End -->
+    <!-- offer banner -->
+    <section class="discount">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 p-0">
+                    <div class="discount__pic">
+                        <img src="{{ url_for('static', filename= 'img/discount.jpg') }}" alt="">
+                    </div>
+                </div>
+                <div class="col-lg-6 p-0">
+                    <div class="discount__text">
+                        <div class="discount__text__title">
+                            <span>Discount</span>
+                            <h2>Summer 2022</h2>
+                            <h5><span>Sale</span> 50%</h5>
+                        </div>
+                        <div class="discount__countdown" id="countdown-time">
+                            <div class="countdown__item">
+                                <span>22</span>
+                                <p>Days</p>
+                            </div>
+                            <div class="countdown__item">
+                                <span>18</span>
+                                <p>Hour</p>
+                            </div>
+                            <div class="countdown__item">
+                                <span>46</span>
+                                <p>Min</p>
+                            </div>
+                            <div class="countdown__item">
+                                <span>05</span>
+                                <p>Sec</p>
+                            </div>
+                        </div>
+                        <a href="#">Shop now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- offer banner end -->
+<!-- data table -->
+<div class="container" style="margin-bottom: 100px">
+  <h1 style="text-align:center;padding: 10px;margin-top: 100px;font-size: 25px;">User Profile</h1>
+    <table class="rwd-table">
+      <tbody>
+        <tr>
+          <th>S.No</th>
+          <th>UserName</th>
+          <th>Email</th>
+          <th>Number</th>
+          <th>Logged Time</th>
+          
+        </tr>
+        <tr>
+          <td data-th="Supplier Code">
+            1
+          </td>
+          <td data-th="Supplier Name">
+            Vimala
+          </td>
+          <td data-th="Invoice Number">
+            vimala@gmail.com
+          </td>
+          <td data-th="Invoice Date">
+            1234567890
+          </td>
+          <td data-th="Due Date">
+           03:09 Pm
+          </td>
+        </tr>
+        <tr>
+          <td data-th="Supplier Code">
+            2
+          </td>
+          <td data-th="Supplier Name">
+            Sundar
+          </td>
+          <td data-th="Invoice Number">
+            Sundar@gmail.com
+          </td>
+          <td data-th="Invoice Date">
+            1234567890
+          </td>
+          <td data-th="Due Date">
+           08:09 Pm
+          </td>
+        </tr>
+        <tr>
+          <td data-th="Supplier Code">
+            3
+          </td>
+          <td data-th="Supplier Name">
+            Ramesh
+          </td>
+          <td data-th="Invoice Number">
+            ramesh@gmail.com
+          </td>
+          <td data-th="Invoice Date">
+            1234567890
+          </td>
+          <td data-th="Due Date">
+           09:30 Am
+          </td>
+        </tr>
+        
+      </tbody>
+    </table>
+  </div>
+<!-- data table End-->
+    
+
+<!-- Footer Section Begin -->
+<footer class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4 col-md-6 col-sm-7">
+                <div class="footer__about">
+                    <div class="footer__logo">
+                        <a href="./index.html"><img src="{{ url_for('static', filename= 'img/logo.png') }}" alt=""></a>
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+                    cilisis.</p>
+                    <div class="footer__payment">
+                        <a href="#"><img src="{{ url_for('static', filename= 'img/payment/payment-1.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ url_for('static', filename= 'img/payment/payment-2.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ url_for('static', filename= 'img/payment/payment-3.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ url_for('static', filename= 'img/payment/payment-4.png') }}" alt=""></a>
+                        <a href="#"><img src="{{ url_for('static', filename= 'img/payment/payment-5.png') }}" alt=""></a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-5">
+                <div class="footer__widget">
+                    <h6>Quick links</h6>
+                    <ul>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Blogs</a></li>
+                        <li><a href="#">Contact</a></li>
+                        <li><a href="#">FAQ</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-3 col-sm-4">
+                <div class="footer__widget">
+                    <h6>Account</h6>
+                    <ul>
+                        <li><a href="#">My Account</a></li>
+                        <li><a href="#">Orders Tracking</a></li>
+                        <li><a href="#">Checkout</a></li>
+                        <li><a href="#">Wishlist</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-8 col-sm-8">
+                <div class="footer__newslatter">
+                    <h6>NEWSLETTER</h6>
+                    <form action="#">
+                        <input type="text" placeholder="Email">
+                        <button type="submit" class="site-btn">Subscribe</button>
+                    </form>
+                    <div class="footer__social">
+                        <a href="#"><i class="fa fa-facebook"></i></a>
+                        <a href="#"><i class="fa fa-twitter"></i></a>
+                        <a href="#"><i class="fa fa-youtube-play"></i></a>
+                        <a href="#"><i class="fa fa-instagram"></i></a>
+                        <a href="#"><i class="fa fa-pinterest"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-12">
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                <div class="footer__copyright__text">
+                    <p>Copyright by Spartans &copy; <script>document.write(new Date().getFullYear());</script> All rights reserved </a></p>
+                </div>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </div>
+        </div>
+    </div>
+</footer>
+<!-- Footer Section End -->
+
+<!-- Search Begin -->
+<div class="search-model">
+    <div class="h-100 d-flex align-items-center justify-content-center">
+        <div class="search-close-switch">+</div>
+        <form class="search-model-form">
+            <input type="text" id="search-input" placeholder="Search here.....">
+        </form>
+    </div>
+</div>
+<!-- Search End -->
+
+<!-- Js Plugins -->
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/jquery-3.3.1.min.js ') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/bootstrap.min.js ') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/jquery.magnific-popup.min.js ') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/jquery-ui.min.js ') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/mixitup.min.js ') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/jquery.countdown.min.js ') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/jquery.slicknav.js ') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/owl.carousel.min.js ') }}">
+<link rel="stylesheet" href="{{ url_for('static', filename= 'js/jquery.nicescroll.min.js ') }}">
+
+
+</body>
+
+</html>
