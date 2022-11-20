@@ -31,8 +31,6 @@ dsn = (
     "PWD={6};"
     "SECURITY={7};").format(dsn_driver, dsn_database, dsn_hostname, dsn_port, dsn_protocol, dsn_uid, dsn_pwd,dsn_security)
 
-
-
 try:
     conn = ibm_db.connect(dsn, "", "")
     print ("Connected to database: ", dsn_database, "as user: ", dsn_uid, "on host: ", dsn_hostname)
