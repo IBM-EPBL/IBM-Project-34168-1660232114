@@ -12,8 +12,8 @@ engine = create_engine('sqlite://',
                        echo = False)
 
 dsn_hostname = "2d46b6b4-cbf6-40eb-bbce-6251e6ba0300.bs2io90l08kqb1od8lcg.databases.appdomain.cloud"
-dsn_uid = "nzb86829"
-dsn_pwd = "vPGZUY3TCCHJuxx9"
+dsn_uid = ""
+dsn_pwd = ""
 
 dsn_driver = "{IBM DB2 ODBC DRIVER}"
 dsn_database = "BLUDB"
@@ -43,7 +43,7 @@ except:
 
 app = Flask(__name__)
 app.config.from_object(__name__)
-app.config['SECRET_KEY'] = '7d441f27d441f27567d441f2b6176a'
+app.config['SECRET_KEY'] = ''
 
 
 @app.route("/")
